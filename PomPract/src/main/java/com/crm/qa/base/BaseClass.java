@@ -22,7 +22,7 @@ public  class  BaseClass {
 	String path="C:/Users/LENOVO/eclipse-workspace/PomPract/src/main/resources/config.properties";
 	public BaseClass() throws IOException
 	{
-		prop = new Properties();
+		prop = new Properties();          //Using this file we read config file
 		file = new FileInputStream(path);
 		prop.load(file);
 		
