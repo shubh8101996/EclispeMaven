@@ -19,6 +19,7 @@ public class LogOutTest  extends BaseClass {
    public void LogOutFunc() throws IOException, InterruptedException {
 	   
 	   LogOut lt=new LogOut(driver);
+	   System.out.println("this is logout test");
 	   
 	   lt.LogOutClick();
 	   
