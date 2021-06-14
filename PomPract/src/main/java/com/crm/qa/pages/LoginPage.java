@@ -30,6 +30,9 @@ public class LoginPage extends BaseClass {
 		super();
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
+		
+		//This is Object Repo
+		//Page Factory Class
 	}
 	
 public void navToPage() {
