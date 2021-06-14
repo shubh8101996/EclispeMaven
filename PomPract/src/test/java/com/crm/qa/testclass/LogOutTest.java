@@ -20,6 +20,7 @@ public class LogOutTest  extends BaseClass {
 	   
 	   LogOut lt=new LogOut(driver);
 	   System.out.println("this is logout test");
+	   System.out.println("Hii SHUBHAM");
 	   
 	   lt.LogOutClick();
 	   
